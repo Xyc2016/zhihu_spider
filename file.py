@@ -52,7 +52,7 @@ def get_search_result(url:str):
     return question_urls
 
 search_result = get_search_result(
-    'https://www.zhihu.com/search?type=content&q=%E7%A7%81%E6%88%BF%E7%85%A7'
+    'https://www.zhihu.com/search?type=content&q=%E7%85%A7%E7%89%87'
 )
 
 for url in search_result:
